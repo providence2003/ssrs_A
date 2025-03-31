@@ -1,0 +1,114 @@
+
+	body{
+		margin: 0;
+		padding: 0;
+		font-family: Arial, sans-serif;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100vh;
+		
+	}
+
+	form{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 20px;
+		border-radius: 10px;
+		box-shadow: 2px 2px 10px rgba(0, 0, 255, .3);
+		grid-gap: 10px;
+	}
+
+	input{
+		padding: 10px;
+		width: 300px;
+		border: none;
+		border-radius: 5px;
+		box-shadow: 0px 5px 10px rgba(0, 0, 0, .3);
+	}
+	textarea {
+		padding: 10px;
+		width: 300px;
+		border: none;
+		border-radius: 5px;
+		box-shadow: 0px 5px 10px rgba(0, 0, 0, .3);
+	}
+
+	input[type=submit]
+	{ 
+		background-color: #20a3ff; 
+		color: #fff; 
+		cursor: pointer;
+	}
+	select
+	{ 
+		padding: 10px;
+		width: 300px;
+		border: none;
+		border-radius: 5px;
+		box-shadow: 0px 5px 10px rgba(0, 0, 0, .3);
+	} 
+		.sidebar {
+	    	width: 20vw;
+	    	background: #2c3e50;
+	    	color: white;
+	    	padding: 20px;
+	    	margin-left: -13vw;
+	    	height: 100vh;
+		}
+
+		.sidebar h2 {
+		    text-align: center;
+		}
+
+		.sidebar nav {
+		    list-style: none;
+		    padding: 0;
+		}
+
+		.sidebar nav a  {
+		    padding: 10px;
+		    margin: 10px 0;
+		    background: #34495e;
+		    cursor: pointer;
+		    text-align: center;
+		    border-radius: 5px;
+		    text-decoration: none;
+			color: white;
+		    
+
+		}
+
+		.sidebar nav a:hover {
+		    background: #1abc9c;
+		}
+		
+	
+		table{
+			margin-top: vh;
+			width: 50vw;
+			margin-top: -20vw;
+		}
+		tr{
+			box-shadow: 0px 0px 5px rgba(0, 0, 0, .3);
+		}
+		th{
+			background-color: aquamarine;
+			padding: 10px;
+		}
+		td{
+			padding: 5px;
+
+		}
+		td a{
+			
+			box-shadow: 0px 0px 5px rgba(0, 0, 0, .3);
+			padding: 5px;
+			color: black;
+			text-decoration: none;
+	}
+	p{
+		color: #34495e;
+	}
+	
